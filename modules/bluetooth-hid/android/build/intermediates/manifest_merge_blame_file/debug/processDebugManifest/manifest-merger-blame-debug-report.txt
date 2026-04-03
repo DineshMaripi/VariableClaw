@@ -1,0 +1,26 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.openclaw.bluetoothhid" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <uses-permission android:name="android.permission.BLUETOOTH" />
+7-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:2:5-68
+7-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:2:22-65
+8    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+8-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:3:5-74
+8-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:3:22-71
+9    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+9-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:4:5-76
+9-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:4:22-73
+10    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+10-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:5:5-73
+10-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:5:22-70
+11    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+11-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:6:5-78
+11-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:6:22-75
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:7:5-71
+12-->D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:7:22-68
+13
+14</manifest>

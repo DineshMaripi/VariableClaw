@@ -2,5 +2,6 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true
-  }
+  },
+  "exclude": ["modules/on-device-llm/llama.cpp"]
 }

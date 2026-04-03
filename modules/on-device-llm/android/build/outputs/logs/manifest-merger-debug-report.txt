@@ -1,0 +1,24 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml:1:1-5:12
+	package
+		INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml:4:22-78
+uses-sdk
+INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml
+INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\on-device-llm\android\src\main\AndroidManifest.xml

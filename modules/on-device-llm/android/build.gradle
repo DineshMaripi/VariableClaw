@@ -1,0 +1,54 @@
+apply plugin: 'com.android.library'
+
+group = 'com.openclaw.ondevicellm'
+version = '1.0.0'
+
+// Check if llama.cpp source has been downloaded (run: npm run setup:llama)
+def llamaCppDir = new File(projectDir, '../llama.cpp')
+def llamaCppAvailable = llamaCppDir.exists() && new File(llamaCppDir, 'CMakeLists.txt').exists()
+
+if (!llamaCppAvailable) {
+    logger.warn("[on-device-llm] llama.cpp not found — building without native inference (mock mode).")
+    logger.warn("[on-device-llm] To enable real AI: npm run setup:llama && npx expo run:android")
+}
+
+android {
+    namespace "com.openclaw.ondevicellm"
+    compileSdkVersion safeExtGet("compileSdkVersion", 34)
+
+    defaultConfig {
+        minSdkVersion safeExtGet("minSdkVersion", 28)
+        targetSdkVersion safeExtGet("targetSdkVersion", 34)
+
+        if (llamaCppAvailable) {
+            ndk {
+                abiFilters "arm64-v8a"
+            }
+
+            // CMake build for llama.cpp JNI
+            externalNativeBuild {
+                cmake {
+                    arguments "-DANDROID_STL=c++_shared"
+                    cppFlags  "-std=c++17 -O2 -DNDEBUG"
+                }
+            }
+        }
+    }
+
+    if (llamaCppAvailable) {
+        externalNativeBuild {
+            cmake {
+                path "src/main/cpp/CMakeLists.txt"
+                version "3.22.1+"
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation "com.facebook.react:react-android:+"
+}
+
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}

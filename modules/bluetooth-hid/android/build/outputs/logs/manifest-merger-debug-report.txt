@@ -1,0 +1,40 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:1:1-8:12
+	package
+		INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:2:5-68
+	android:name
+		ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:2:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:3:5-74
+	android:name
+		ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:3:22-71
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:4:5-76
+	android:name
+		ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:4:22-73
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:5:5-73
+	android:name
+		ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:5:22-70
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:6:22-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml:7:22-68
+uses-sdk
+INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml
+INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Hp\Desktop\Varible Claw\OpenClaw\modules\bluetooth-hid\android\src\main\AndroidManifest.xml
